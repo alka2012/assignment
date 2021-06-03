@@ -1,0 +1,25 @@
+{
+   "name": "student",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "@hapi/joi": "^17.1.1",
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "joi": "^17.4.0",
+      "mongodb": "^3.0.8",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.32",
+      "winston": "^3.3.3"
+   },
+   "scripts": {
+      "build": "tsc",
+      "start": "node build/index.js",
+      "test": "jest"
+   }
+}

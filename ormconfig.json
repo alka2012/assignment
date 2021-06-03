@@ -1,0 +1,22 @@
+{
+   "type": "mongodb",
+   "host": "localhost", 
+   "port": 27017, 
+   "database": "test",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "build/entity/**/*.{ts,js}"
+   ],
+   "migrations": [
+      "build/migration/**/*.{ts,js}"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
